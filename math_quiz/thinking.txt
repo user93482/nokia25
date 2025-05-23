@@ -1,0 +1,43 @@
+1.: 5
+  Fel tudunk irni a körbe egy háromszöget aminek mind a három oldalát ki tudjuk fejezni R-el.
+    (R-1)^2+(R-2)^2=R^2
+    R^2-2R+1+R^2-4R+4=R^2
+    R^2-6R+5=0
+  Másodfokű megoldóképlettel azt kapjuk
+    Rˇ1=5
+    R˘2=1 , de ez nem lehet 
+
+2.:
+
+3.:
+
+4.:
+
+5.: 150
+  A macska magassága legyen m, a teknősé t, az sztalé a.
+    a+m-t = 170
+    a+t-m = 130
+  Adjuk össze a két egyenletet.
+    2a = 300
+    a = 150
+  Az asztal 120 cm magas.
+
+6.: 27
+  Macska legyen m, kutya k, egér e.
+    m+e = 10
+    k+e = 20
+    k+m = 24
+  Az elsöből kifejezzük az e-t:
+    e = 10-m
+  Ezt behelyettesitjük a másodikba és kifejezzük a k-t:
+    k+10-m =20
+    k = 10+m
+  Ezzel a harmadikból megkapjuk a m-t:
+    10+m+m = 24
+    2m = 14
+    m = 7
+    k = 17
+    e = 3
+  Így a három állat összesen 27 kilót nyomnak.
+
+7.:
