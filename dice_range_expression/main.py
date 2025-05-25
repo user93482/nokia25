@@ -1,6 +1,8 @@
 with open('./input.txt', 'r') as f:
     input = f.read()
 
+#ha lehetséges eltolás nélkül megoldja a program, a lehető legkevesebb kockával, csak, ha nem lehet eltolás nélkül megoldani, akkor használ eltolást, és akkor is a lehető legkevesebbet
+
 a = input.replace('\n',' ').split(' ')
 dice = (20,10,8,6,4,3,2)
 
