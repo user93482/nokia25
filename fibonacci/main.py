@@ -24,6 +24,6 @@ for i in n:
                     print(', ',end='')
                     print(Fibonaccinumbers[j],end='')
                 j += 1
-            print()
+        print()
     except:
         print("N/A")
