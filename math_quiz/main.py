@@ -1,4 +1,4 @@
-anwsers = [5,0,9,1,150,27,6/11]
+anwsers = [5,0,9,1,150,27,0.5]
 
 i = 0
 while i < len(anwsers):
