@@ -9,9 +9,26 @@
 
 2.:
 
-3.:
-
-4.:
+3.: 9
+  Szorozzunk be mindegyik tagot a konjugáltjával.
+    (1^0.5-2^0.5)/1-2+...+(99^0.5-100^0.5)/99-100
+  Ekkor mindegyik tag nevezőjében -1 lesz, ez egyenlő a számláló ellentetjével.
+    -(1^0.5-2^0.5)+...-(99^0.5-100^0.5)
+  Ekkor minden elem kétszer szerepel, az első és az utolsó kivételével, egyszer + egyszer - előjellel, ezért kütik egymást.
+    -1+2^0.5-2^0.5+...+99^0.5-99^0.5+100^0.5
+  Így csak az első és az utolsó marad:
+    -1+100^0.5 
+    10-1 = 9
+4.: 1
+  Fel lehet írni az egyenletet így is:
+    n^n^2-2*n^n+1 = 0
+  Legyen n^n = a, így:
+    a^2-2a+1 = 0
+  Ezt a másodfokú megoldóképlettel megoldva megkapjuk:
+    a = 1
+    n^n = 1
+  Az egy minden hatványa 1, minden szám 0-dik hatványa is egy, de a 0^0 nem definiált, ezért:
+    n = 1
 
 5.: 150
   A macska magassága legyen m, a teknősé t, az sztalé a.
@@ -40,4 +57,17 @@
     e = 3
   Így a három állat összesen 27 kilót nyomnak.
 
-7.:
+7.: 6/11
+  Nézzük az első kettő dobás lehetséges kimeneteleit egy igazságtáblával. 
+  A = Anna nyer, B = Balázs nyer
+    \ 1 2 3 4 5 6 A
+    1 x x x x x A
+    2 x x x x x A
+    3 x x x x x A
+    4 x x x x x A
+    5 x x x x x A
+    6 B B B B B A <-- itt azért Anna nyer mert ha Balázs utána már nem dobhat, ezért nem nyerhet.
+    B
+  Az első két dobás után ugyan ez fog ismétlödni, mert függetlenek egymástól a dobások.
+  Mivel 11 lehetőség van aminél valaki nyer és ebből 6- ban Anna nyer ezért 6/11 az esélye.
+
