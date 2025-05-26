@@ -7,7 +7,22 @@
     Rˇ1=5
     R˘2=1 , de ez nem lehet 
 
-2.:
+2.: 1.18681
+  Át lehet írni az egyenletet erre:
+    2^2^x+2^x*3^x-3^2^x=0 
+  Ezt ha elosztjuk 3^2^x-el:
+    2^2x/3^2x+2^x*3^x/3^2x-1 = 0
+  Ezt lehet egyszerűsíteni:
+    (2/3)^2x+(2/3)x-1 = 0
+  Legyen (2/3)^x = a, ekkor:
+    a^2+a-1 = 0
+  Másodfokú megoldóképlettel megkapjuk hogy:
+    a1 = (-1+5^0.5)/2 = (2/3)^x
+    a2 = (-1-5^0.5)/2 = (2/3)^x
+  Vesszük a1, a2 2/3 alapú logaritmusát, de a2 negatív ezért az nem lehet, theát:
+    x = logˇ(2/3)((-1+5^0.5)/2)
+    x ≈ 1,18681
+    
 
 3.: 9
   Szorozzunk be mindegyik tagot a konjugáltjával.
